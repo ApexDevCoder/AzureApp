@@ -1,6 +1,7 @@
 var express = require('express');
 var { MongoClient } = require('mongodb');
 var router = express.Router();
+require('dotenv/config');
 
 const title = process.env.TITLE;
 

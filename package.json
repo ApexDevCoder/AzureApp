@@ -15,5 +15,15 @@
     "mongodb": "^3.2.4",
     "morgan": "~1.9.1",
     "nodemon": "^1.19.0"
+  },
+  "nodemonConfig": {
+    "env": {
+      "URL": "mongodb://library-database.documents.azure.com:10255/?ssl=true&replicaSet=globaldb",
+      "USER": "library-database",
+      "PASSWORD": "HUCxiIpMn6DskFJ9jGduaGROT9WZTyASBrJhkzAkeXVnTMA9b8s22kBtAZHi4hVoTWgod5LrtgQX4BqwZ7522w=="
+    }
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0"
   }
 }
